@@ -1,4 +1,4 @@
-# BrewKiosk
+# BatchBoard
 
 A minimalist, autonomous dashboard for displaying live telemetry data for microbreweries (fermentation temperature, specific gravity, and tank pressure).
 

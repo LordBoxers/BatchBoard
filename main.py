@@ -2,6 +2,7 @@ import datetime
 import random
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
+from config import settings
 
 app = FastAPI()
 

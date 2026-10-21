@@ -14,7 +14,10 @@ __pycache__/
 
 # Local secrets & API-keys
 .env
-.env.*
+.env.Local
+
+# Allowed examples
+!.env.example
 
 # OS-generated files
 Thumbs.db

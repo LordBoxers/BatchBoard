@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python runtime-cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE- & Edittoraial directories
+.vscode/
+.idea/
+
+# Local secrets & API-keys
+.env
+.env.*
+
+# OS-generated files
+Thumbs.db
+Desktop.ini
+.DS_Store

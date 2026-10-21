@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>Brew Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-left">
+      <h1 id="batchName">Henter batch data...</h1>
+      <div class="meta">
+        <span id="recipeName">-</span> • Sidst opdateret: <span id="lastUpdated">-</span>
+      </div>
+    </div>
+    <div class="status-badge" id="batchStatus">-</div>
+  </header>
+
+  <main class="dashboard-grid">
+    <section class="card">
+      <h2 id="title-temperature">Temperatur</h2>
+      <div class="chart-wrapper">
+        <canvas id="chart-temperature"></canvas>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 id="title-gravity">Massefylde (SG)</h2>
+      <div class="chart-wrapper">
+        <canvas id="chart-gravity"></canvas>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 id="title-pressure">Tanktryk (PSI)</h2>
+      <div class="chart-wrapper">
+        <canvas id="chart-pressure"></canvas>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -23,6 +23,10 @@ cd brew-kiosk``
 ``python -m venv venv
 .\venv\Scripts\Activate.ps1``
 
+### 4. Configure environment variables
+Copy the example environment file and adjust the values as needed:
+``Cope-Item .env.example .env``
+
 ### 4. Install dependencies
 ``pip install -r requirements.txt``
 
